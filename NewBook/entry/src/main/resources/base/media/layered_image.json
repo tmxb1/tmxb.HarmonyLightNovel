@@ -1,0 +1,7 @@
+{
+  "layered-image":
+  {
+    "background" : "$media:button",
+    "foreground" : "$media:top"
+  }
+}

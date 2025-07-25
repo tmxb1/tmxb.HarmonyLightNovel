@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "D:/learning/Harmony/certificate/qingbook.p12",
+          "storePassword": "0000001927DA6CCD1EC1324399C8668220629B8923F47AB14BC26B0943412DD16809C95464B645B3B3",
+          "keyAlias": "tmxb",
+          "keyPassword": "00000019C5DD331D90AF3187A1D2DE199542B0B45DE9B9BB342A00B31E7D218B1CD0FC2BBBA85C5B16",
+          "signAlg": "SHA256withECDSA",
+          "profile": "D:/learning/Harmony/certificate/qingbookRelease.p7b",
+          "certpath": "D:/learning/Harmony/certificate/qingbook.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.2(14)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
