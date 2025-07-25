@@ -1,4 +1,4 @@
-<img width="485" height="1004" alt="Snipaste_2025-07-20_23-42-50" src="https://github.com/user-attachments/assets/032c03cf-5470-4984-a736-b540badc4ff9" /><img width="489" height="1006" alt="Snipaste_2025-07-20_23-42-24" src="https://github.com/user-attachments/assets/615c6eef-c16d-4e80-a941-7c80b90451fa" /><img width="482" height="1003" alt="Snipaste_2025-07-20_23-43-14" src="https://github.com/user-attachments/assets/9c6ee0d0-9c6d-4c00-a1f1-a2cbe919e4ef" />基于ArkTS语言搭建的轻小说软件
+基于ArkTS语言搭建的轻小说软件
 
 项目演示视频：https://www.bilibili.com/video/BV1ppgHzVEfH
 
